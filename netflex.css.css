@@ -11,19 +11,23 @@
     height: 100vh;
     display: flex;
     justify-content: space-between;
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/701eec50-4b87-4dc0-9d00-b0f54025dc36/a3e73768-e367-4f45-b205-f9dd8b45fb7e/PK-en-20220905-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+
+
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/701eec50-4b87-4dc0-9d00-b0f54025dc36/a3e73768-e367-4f45-b205-f9dd8b45fb7e/PK-en-20220905-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    filter: brightness(0.5);
 }
 
 .logo {
-    height: 50px;
-    width: 100px;
-    margin-top: 30px;
+    height: 120px;
+    width: 150px;
     margin-left: 30px;
+    line-height: normal;
 }
 
 .logo img {
     height: 100%;
     width: 100%;
+
 }
 
 .text {
@@ -54,7 +58,7 @@
     font-weight: 400;
 }
 
-.buttonstart {
+.signin {
     height: 30px;
     width: 80px;
     color: white;
@@ -64,10 +68,14 @@
     border: 2px solid black;
     margin-top: 30px;
     margin-right: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+
 }
 
-button:hover {
-    border: 2px solid white;
+.signin:hover {
+    border: 2px solid black;
 }
 
 input {
@@ -95,12 +103,29 @@ input {
     margin: .25em auto;
     padding: 0 1em;
     box-shadow: 0 1px 0 rgba(0, 0, 0, .45);
+    display: flex;
+
+}
+.button2{display: inline-block;}
+
+.a {
+    height: 48px;
+    width: 40%;
+    color: #ffffff;
+    background-color: #e50919;
+    text-align: center;
+    margin: #e50919;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;
+
 }
 
-label {
-    height: 40px;
-    width: 40%;
-    background-color: #e50914;
+.charvin {
+    fill: #fff;
+    height: 9.75px;
+    width: 9.5px;
+    font-size: 1.625rem;
 }
 
 /* Section_2 */
@@ -343,10 +368,12 @@ label {
     background-color: #000;
     font: 26px;
     text-align: center;
-    display:flex;justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.question{
+
+.question {
     text-align: center;
 }
 
@@ -355,7 +382,7 @@ align-items: center;
     /* width: 50%; */
     display: block;
     justify-content: center;
-width: 750px;
+    width: 750px;
 
 }
 
@@ -365,14 +392,14 @@ width: 750px;
 }
 
 li {
-list-style-type:none;
+    list-style-type: none;
     color: #fff;
     padding: 20.8px 502px 20.8px 31.2px;
     background-color: #303030;
     margin: 0px 0px 8px;
     /* height: 10px;
-    /* width: 50px; */ 
-width: 100%;
+    /* width: 50px; */
+    width: 100%;
 }
 
 button {
@@ -381,7 +408,10 @@ button {
 }
 
 ul {
-    font-weight: 400;text-align: justify;font-size: 1.325rem;width: 100%;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 1.325rem;
+    width: 100%;
 }
 
 svg {
@@ -391,5 +421,5 @@ svg {
     width: 1em;
     overflow-x: hidden;
     overflow-y: hidden;
-    text-align:right ;
+    text-align: right;
 }
